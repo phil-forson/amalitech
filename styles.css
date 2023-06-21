@@ -1,0 +1,130 @@
+@import url(fonts/SFPRODISPLAYBLACKITALIC.OTF);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container {
+  
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfbfd;
+}
+
+.card {
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  width: 38rem;
+  height: 38rem;
+}
+
+.card-content {
+  padding: 40px 50px;
+
+}
+
+.card-content .header {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-textbox {
+    margin-top: 2rem;
+    gap: 4px;
+}
+
+.input-label {
+    margin-bottom: 400px;
+}
+.styled-input {
+    background-color: hsla(0,0%,100%,.8);
+    border-color: #d2d2d7;
+    text-align: left;
+    text-overflow: ellipsis;
+    margin: 0;
+    border: 1px solid #d2d2d7;
+    color: #494949;
+    height: 40px;
+    width: 100%;
+    padding: 2px 16px;
+    outline: none;
+    border-radius: 8px;
+}
+
+.form-textbox .styled-input:focus {
+    border: 2px solid '#06c'
+}
+
+.center-text {
+    text-align: center;
+}
+
+.card-footer {
+    margin-top: 40px
+}
+
+.card-footer .btn {
+    display: block;
+    width: 100%;
+    background-color: #06c;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.card-footer .margin-top {
+    margin-top: 50px
+}
+
+
+.card-footer a {
+    text-decoration: none;
+    color: #06c;
+}
+
+.margin-top {
+    margin-top: 30;
+}
+
+.card-footer a:hover {
+    color: 'blue'
+}
+
+.anim {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.anim-absolute1 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    bottom: 30px;
+    left: 20px;
+}
+
+.anim-absolute2 {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    bottom: 30px;
+    right: 20px
+}
+
+.forgot_password {
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+}
